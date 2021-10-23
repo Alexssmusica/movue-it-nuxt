@@ -7,7 +7,7 @@ export const state = (): State => ({
 	xp: {
 		current: 0,
 		start: 0,
-		end: 0
+		end: 64
 	},
 	completedChallenges: 0,
 	currentChallengeIndex: null,
