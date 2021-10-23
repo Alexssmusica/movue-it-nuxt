@@ -1,43 +1,22 @@
 {
-    "files.exclude": {
-        "**/.git": true,
-        "**/.DS_Store": true,
-        "package-lock.json": true,
-        "**/node_modules": true,
-        "**/dist": true,
-        "node_modules": true,
-        ".quasar": true,
-        "src/stories": true
-
-    },
-    "typescript.tsdk": "node_modules/typescript/lib",
-    "vetur.experimental.templateInterpolationService": true,
-    "vetur.validation.interpolation": false,
-    "typescript.preferences.importModuleSpecifier": "relative",
-    "editor.formatOnSave": true,
-    "editor.codeActionsOnSave":{
-      "source.organizeImports": false,
-      "source.fixAll.eslint": true
-     },
-    "[vue]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-     },
-     "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-     },
-     "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-     },
-     "[typescript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-     },
-
-     "material-icon-theme.folders.associations": {
-        "controllers": "config",
-        "daos": "database",
-        "modules": "components",
-        "migrations": "database",
-        "entities": "container",
-        "sample": "dist"
-    }
+	"files.exclude": {
+		"**/.git": true,
+		"**/.DS_Store": true,
+		"**/node_modules": true,
+		"**/dist": true,
+		"node_modules": true
+	},
+	"editor.formatOnSave": false,
+	"editor.codeActionsOnSave": {
+		"source.organizeImports": false,
+		"source.fixAll.eslint": true
+	},
+	"material-icon-theme.folders.associations": {
+		"controllers": "config",
+		"daos": "database",
+		"modules": "components",
+		"migrations": "database",
+		"entities": "container",
+		"sample": "dist"
+	}
 }
