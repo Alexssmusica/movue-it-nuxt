@@ -15,6 +15,7 @@ module.exports = {
 		'import/first': 'off',
 		'import/order': 'off',
 		'import/named': 'off',
+		'import/no-named-as-default-member': 'off',
 		indent: 'off',
 		'@typescript-eslint/indent': [
 			'error',
