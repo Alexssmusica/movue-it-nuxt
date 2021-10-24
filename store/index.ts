@@ -1,7 +1,7 @@
 import { Mutations } from './Challenges/types';
 
 export const actions = {
-	nuxtSeverInit ({ commit }: any, { app }: any) {
+	nuxtServerInit ({ commit }: any, { app }: any) {
 		const cookie = app.$cookiz.get('movueit');
 
 		if (cookie) {
