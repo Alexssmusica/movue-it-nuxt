@@ -88,8 +88,8 @@ describe('Store:Challenges:index', () => {
 			expect(state.isLevelUpModalOpen).toBe(true);
 		});
 
-		it(`${Mutations.COMPLETE_CHALLENGE} and not level up`, () => {
-			mutations[Mutations.COMPLETE_CHALLENGE](state, 10);
+		it(`${Mutations.COMPLETED_CHALLENGE} and not level up`, () => {
+			mutations[Mutations.COMPLETED_CHALLENGE](state, 10);
 
 			expect(state.completedChallenges).toBe(1);
 			expect(state.xp.start).toBe(0);
@@ -97,8 +97,8 @@ describe('Store:Challenges:index', () => {
 			expect(state.xp.end).toBe(64);
 		});
 
-		it(`${Mutations.COMPLETE_CHALLENGE} and level up`, () => {
-			mutations[Mutations.COMPLETE_CHALLENGE](state, 42);
+		it(`${Mutations.COMPLETED_CHALLENGE} and level up`, () => {
+			mutations[Mutations.COMPLETED_CHALLENGE](state, 42);
 
 			expect(state.completedChallenges).toBe(1);
 			expect(state.level).toBe(2);

@@ -29,7 +29,7 @@ export const mutations: MutationsInterface = {
 	[Mutations.SET_IS_LEVEL_UP_MODAL_OPEN] (state, flag) {
 		state.isLevelUpModalOpen = flag;
 	},
-	[Mutations.COMPLETE_CHALLENGE] (state, xpAmount) {
+	[Mutations.COMPLETED_CHALLENGE] (state, xpAmount) {
 		const { current, end } = state.xp;
 		const shouldLevelUp = (xpAmount + current) >= end;
 
