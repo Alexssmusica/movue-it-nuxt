@@ -1,4 +1,4 @@
-/* .button {
+.button {
 	@apply p-6 rounded-md flex justify-center items-center font-semibold mt-8 transition-colors w-full;
 }
 
@@ -20,4 +20,4 @@
 
 .button.succeeded {
 	@apply text-white bg-green hover:bg-green-dark h-3 w-1/2;
-} */
+}
