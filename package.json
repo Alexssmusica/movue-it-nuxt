@@ -14,7 +14,7 @@
 	},
 	"dependencies": {
 		"cookie-universal-nuxt": "^2.1.5",
-		"core-js": "^3.20.1",
+		"core-js": "^3.20.2",
 		"nuxt": "^2.15.7"
 	},
 	"devDependencies": {
